@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiGen — генерация дизайна искуственным интеллектом</title>
+
+    <link rel="stylesheet" href="CSS/CSS code.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <aside id="aside" class="aside">
+        <div class="burger btn-reset">
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line-small"></span>
+        </div>
+
+        <div class="menu-burger">
+            <nav class="nav list-reset">
+                <li class="list-nav"><a href="#hero" class="a-nav">Главная</a></li>
+                <li class="list-nav"><a href="#services" class="a-nav">Сервис</a></li>
+                <li class="list-nav"><a href="#film" class="a-nav">О нас</a></li>
+                <li class="list-nav"><a href="#footer" class="a-nav">Контакты</a></li>
+            </nav>
+        </div>
+
+        <script>
+            let menuBtn = document.querySelector('.burger');
+            let menu = document.querySelector('.menu-burger');
+
+            menuBtn.addEventListener('click', function() {
+                menuBtn.classList.toggle('active');
+                menu.classList.toggle('active');
+            })
+        </script>
+
+        <div class="aside-1">
+            <p class="LSD">G</p>
+        </div>
+        <div class="aside-2">
+            <p class="LSD">E</p>
+        </div>
+        <div class="aside-3">
+            <p class="LSD">N</p>
+        </div>
+    </aside>
+    <header class='header'>
+        <div class="logo">
+            <a><img src="Project files/AiGen logo.svg" title="Logo" width="212" height="60" alt="AiGen logo"></a>
+        </div>
+        <div class="menu">
+            <ul class="ul-menu">
+                <li><a href="#popup" class="menu-link" title="Home">Главная</a></li>
+                <li><a href="#popup" class="menu-link" title="Experience">Услуги</a></li>
+                <li><a href="#popup" class="menu-link" title="Products">Видеокурс</a></li>
+                <li><a href="#popup" class="menu-link" title="About">Регистрация</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-title-span">AiGen</span>
+                    </h1>
+                    <div class="sculptor">
+                        <span class="hero-sculptor-one">// the team of creators</span>
+                        <div class="line-hero-descr"></div>
+                        <span class="hero-sculptor-one">Мололкина Э.В. и Аврамова Е.В.<br>Высоцкий О.А.</span>
+                    </div>
+                </div>
+                <div class="hero-content-decsr">
+                    <div class="content-decsr">
+                        <div class="kvadrat"></div>
+                        <p class="hero-descr">Искуственный интеллект для<br>генерации дизайн-решений<br>вашего бизнеса</p>
+                        <div class="SVG-HERO">
+                            <a><img src="Project files/SVG HERO.svg" width="468"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="line-end-bloks"></div>
+                <ul class="four list-reset">
+                    <li class="bloks">
+                        <h2 class="title-bloks">20+ языков</h2>
+                        <div class="line-four"></div>
+                        <p class="descr-bloks">Интуитивно понятный интерфейс и множество языков</p>
+                    </li>
+                    <li class="bloks">
+                        <h2 class="title-bloks">10+ форм</h2>
+                        <div class="line-four"></div>
+                        <p class="descr-bloks">Подробная форма заполнения для генерации контента</p>
+                    </li>
+                    <li class="bloks">
+                        <h2 class="title-bloks">8+ тегов</h2>
+                        <div class="line-four"></div>
+                        <p class="descr-bloks">Поиск требуемых графических ресурсов по тегам</p>
+                    </li>
+                    <li class="bloks">
+                        <h2 class="title-bloks">Лимит 10 Гб</h2>
+                        <div class="line-four"></div>
+                        <p class="descr-bloks">Файлообменник с лимитом загрузки до 10 Гб</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="services-background">
+                <div class="container">
+                    <div class="tittle-and-descr">
+                        <div class="div-title-services">
+                            <h2 class="title-services">Функционал версий</h2>
+                        </div>
+                    </div> 
+                    <div class="bloks-title-services">
+                        <div class="blok-about">
+                            <span class="title-descr-services">AiGen company</span>
+                        </div>
+                        <div class="blok-services">
+                            <span class="title-descr-services">Аспекты</span>
+                        </div>
+                        <div class="blok-competence">
+                            <span class="title-descr-services">Описание</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="left-right">
+                        <div class="left-services">
+                            <img src="Project files/Osgard.svg" width="731">
+                            <p class="descr-LSD-services">© All rights reserved</p>
+                        </div>
+                        
+                        <div class="right-services">
+                            <ul class="services-descr1 list-reset">
+                                <li class="services-bloks">
+                                    <div class="h-services-bloks">
+                                        <h3 class="services-bloks-title">Ограничения генерации<br>(Free-версии)</h3>
+                                    </div>
+                                    <div class="p-services-bloks">
+                                        <p class="services-bloks-descr">10 генераций в сутки и лимит загрузки файлов пользователя до 3 штук</p>
+                                    </div>
+                                </li>
+
+                                <li class="services-bloks">
+                                    <div class="h-services-bloks">
+                                        <h3 class="services-bloks-title">Возможности генерации<br>(Pro-версии)</h3>
+                                    </div>
+                                    <div class="p-services-bloks">
+                                        <p class="services-bloks-descr">Отсутствие ограничений количества генераций и отсутствие лимита загрузки пользовательских файлов</p>
+                                    </div>
+                                </li>
+
+                                <li class="services-bloks">
+                                    <div class="h-services-bloks">
+                                        <h3 class="services-bloks-title">Работа с данными<br>(Free-версии)</h3>
+                                    </div>
+                                    <div class="p-services-bloks">
+                                        <p class="services-bloks-descr">Ограничение формата скачивания (jpg, png, tiff) и использования шрифтов и ресурсов фотобанка</p>
+                                    </div>
+                                </li>
+
+                                <li class="services-bloks">
+                                    <div class="h-services-bloks">
+                                        <h3 class="services-bloks-title">Работа с данными<br>(Pro-версии)</h3>
+                                    </div>
+                                    <div class="p-services-bloks">
+                                        <p class="services-bloks-descr">Возможность скачивания в исходном качестве и отсутствие ограничения на шрифты и ресурсы фотобанка</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="links-bottom-service">
+                        <div class="link1-bottom-services">
+                            <div class="line1-links-bottom-service"></div>
+                            <a href="#footer" class="link-services">
+                                <img src="Project files/Ukaz.svg" width="14">
+                                <p class="link-services-text">Узнать подробнее</p>
+                            </a>
+                        </div>
+                        <div class="link2-bottom-services">
+                            <div class="line2-links-bottom-service"></div>
+                            <a href="#footer" class="link-services">
+                                <img src="Project files/Ukaz.svg" width="14">
+                                <p class="link-services-text">Узнать подробнее</p>
+                            </a>
+                        </div>
+                        <div class="link3-bottom-services">
+                            <div class="line2-links-bottom-service"></div>
+                            <a href="#footer" class="link-services">
+                                <img src="Project files/Ukaz.svg" width="14">
+                                <p class="link-services-text">Узнать подробнее</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="film" class="film">
+            <div class="film-background">
+                <div class="container-film">
+                    <div class="top-descr-film">
+                        <p class="descr1-film">Видеокурс AiGen</p>
+                        <p class="descr2-film">Руководство пользователя в видео-формате</p>
+                    </div>
+
+                    <div class="text-obladaet">
+                        <div class="text-film">
+                            <h2 class="title-film">Как<br>пользоваться<br>сервисом?</h2>
+                            <p class="descr-title">Наш проект AiGen является уникальным решением в сфере графического дизайна, позволяющим генерировать при помощи ИИ уникальные изображения для различных носителей (печатные баннеры, публикации соцсетей, листовки и т.д.), исходя из нужд бизнеса, а так же контента пользователя, выраженных настраиваемыми параметрами.</p>
+                            <div class="line-descr-film"></div>
+                        </div>
+                        <div class="obladaet">
+                            <a href="https://drive.google.com/file/d/1aIadwXgfIJYxiM7vHKWm5cqAhu72ioq8/view?usp=share_link" target="_blank"><img src="Project files/Obladaet.png" width="977"></a>
+                        </div>
+                    </div>
+                    <ul class="links-film list-reset">
+                        <li>
+                            <div class="link-and-div">
+                                <a href="https://vk.com/sculllptor" class="href-film" target="_blank"><span class="link-film">Задать вопрос</span></a>
+                                <div class="line-links-film"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link-and-div">
+                                <a href="https://vk.com/sculllptor" class="href-film" target="_blank"><span class="link-film">Поделиться ресурсом</span></a>
+                                <div class="line-links-film"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link-and-div">
+                                <a href="https://vk.com/sculllptor" class="href-film" target="_blank"><span class="link-film">Посмотреть ещё раз</span></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer-background">
+            <div class="footer-container">
+                <form class="box">
+                    <h4 class="create-accaunt">СОЗДАЙ АККАУНТ</h4>
+                    <input type="text" class="reg" name="" placeholder="Username">
+                    <input type="text" class="reg" name="" placeholder="@mail"> 
+                    <input type="password" class="reg" name="" placeholder="Password">
+                    <input type="submit" class="reg" name="" value="Login">
+                </form>
+
+                <div class="footer-logo">
+                    <div class="line1-footer-logo"></div>
+                    
+                    <div class="link-logo">
+                        <div class="link1-footer-logo">
+                            <img src="Project files/Likud.svg" height="70" alt="Likud">
+                        </div>
+                        <div class="link-footer-logo">
+                            <img src="Project files/Ecorp.svg" height="70" alt="E">
+                        </div>
+                        <div class="link-footer-logo">
+                            <img src="Project files/VSTU.svg" height="70" alt="VSTU">
+                        </div>
+                        <div class="link-footer-logo">
+                            <img src="Project files/LSD - f.svg" height="70" alt="LSD">
+                        </div>
+                        <div class="link-footer-logo">
+                            <img src="Project files/British.svg" height="70" alt="British">
+                        </div>
+                        <div class="link2-footer-logo">
+                            <img src="Project files/Fsoc.svg" height="70" alt="Fuck">
+                        </div>
+                    </div>
+
+                    <div class="line2-footer-logo"></div>
+                </div>
+
+                <div class="footer-contacts">
+                    <div class="footer-column">
+                        <h4 class="footer-title">Услуги</h4>
+                        <ui class="foter-list list-reset">
+                            <li class="footer-descr"><a href="#" class="footer-link">Аккаунт пользователя</a></li>
+                            <li class="footer-descr"><a href="#" class="footer-link">О нашей компании</a></li>
+                            <li class="footer-descr"><a href="#" class="footer-link">Главная страница</a></li>
+                        </ui>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Сервис</h4>
+                        <ui class="foter-list list-reset">
+                            <li class="footer-descr"><a href="#" class="footer-link">Pro-версия подписки</a></li>
+                            <li class="footer-descr"><a href="#" class="footer-link">Free-версия подписки</a></li>
+                        </ui>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">Контакты</h4>
+                        <ui class="foter-list list-reset">
+                            <li class="footer-descr"><a href="#" class="footer-link">Конфиденциальность</a></li>
+                            <li class="footer-descr"><a href="#" class="footer-link">Почта AiGen</a></li>
+                            <li class="footer-descr"><a href="#" class="footer-link">Адрес офиса</a></li>
+                        </ui>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-color">
+                <div class="footer-bottom">
+                    <p class="copyright">© 2023, «AiGen company», официальный сайт сервиса.<br>Почта для технической поддержки и сотрудничества: oleg.larin.2016@list.ru</p>
+                    <ul class="social list-reset">
+                        <li class="social-item">
+                            <a href="https://vk.com/sculllptor" class="social-link" target="_blank">
+                                <img src="Project files/vk.svg" title="Vk" height="20" alt="ВКонтакте">
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://www.instagram.com/scullllptor/" class="social-link" target="_blank">
+                                <img src="Project files/instagram.svg" title="Inst" height="20" alt="Инстаграм">
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://github.com/SCUIIIPTOR" class="social-link" target="_blank">
+                                <img src="Project files/github.svg" title="Git" height="20" alt="Гитхаб">
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://t.me/SCUlllPTOR" class="social-link" target="_blank">
+                                <img src="Project files/telegram.svg" title="Tg" height="20" alt="Телеграм">
+                            </a>
+                        </li> 
+                    </ul> 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="popup" class="popup">
+        <a href="#aside" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content">
+                <a href="#aside" class="popup_close">X</a>
+                <div class="popup_title">©️ AiGen</div>
+                <div class="popup_text"> 
+                    <p>Наш проект AiGen является уникальным решением в сфере графического дизайна, позволяющим генерировать при помощи ИИ уникальные изображения для различных носителей (печатные баннеры, публикации соцсетей, листовки и т.д.), исходя из нужд бизнеса, а так же контента пользователя, выраженных настраиваемыми параметрами</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
